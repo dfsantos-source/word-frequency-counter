@@ -10,6 +10,7 @@ $ make
 ```
 
 ## Commands
+There are different ways the program can retrieve the files that are to be read. 
 ```sh
 // stdin via pipe
 $ cat aladdin.txt | ./wordfreak 
