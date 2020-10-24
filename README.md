@@ -1,7 +1,25 @@
-# Project 3 Overview:
+# Word Frequency Counter
 Takes some files as input, and counts how many times each 
 word occurs across them all, writing words and associated 
 counts to an output file in alphabetical order.
+
+## Setup
+We can setup the program using 'make' which compiles all files, creates the .o files, and creates an executable called 'wordfreak' for the program.
+```sh
+$ make
+```
+
+## Commands
+```sh
+// stdin via pipe
+$ cat aladdin.txt | ./wordfreak 
+
+// multiple cmd arguments
+$ ./wordfreak iliad.txt newton.txt
+
+// environment variable
+$ WORD_FREAK=iliad.txt ./wordfreak
+```
 
 ## Youtube Video:
 https://youtu.be/7TL-XDG_8CU
